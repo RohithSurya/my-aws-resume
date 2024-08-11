@@ -1,0 +1,18 @@
+.gloria-hallelujah-regular {
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.playfair-display-semibold {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: italic, bold;
+}
+
+.over-the-rainbow-regular {
+  font-family: "Over the Rainbow", cursive;
+  font-weight: 900;
+  font-style: bold;
+}

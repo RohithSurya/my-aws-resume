@@ -1,0 +1,19 @@
+<div class="container-fluid">
+  <div class="px-5">
+    <h1 class="m-t-5">Projects</h1>
+    <div class="row">
+      <div *ngFor="let project of projects" class="col-3">
+        <div class="card" style="width: 18rem">
+          <img src="" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">{{ project?.title }}</h5>
+            <p class="card-text">
+              {{ project?.description }}
+            </p>
+            <a href="{{ project?.url }}" class="btn btn-primary">Github link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
